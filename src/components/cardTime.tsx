@@ -18,7 +18,7 @@ export default function CardTime(props:ICardProps){
       alt="Shoes"
       className="rounded-xl w-[90%] shadow-2xl" />
   </figure>
-  <div className="absolute flex w-[100%] gap-2 flex-col items-center justify-around top-[160px] card-body items-center text-center pt-5 ">
+  <div className="absolute flex w-[100%] gap-2 flex-col items-center justify-around top-[160px] card-body text-center pt-5 ">
       <H1>
         {props.title}
       </H1>

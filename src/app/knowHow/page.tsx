@@ -2,12 +2,9 @@ import H1 from "@/components/h1"
 import Image from "next/image"
 import Imag from "../../../images/gramsa rubens.jpeg"
 
-interface ChildProps{
-    title: string
 
-}
 
-export default function KnowHow({title}:ChildProps){
+export default function KnowHow(){
     return(
         <div className="flex flex-col gap-5 items-center mt-20 sm:mt-5">
             <H1 className="w-[20rem] sm:w-[10vw] text-center text-white text-[2rem] border-solid border-b-4">
@@ -17,7 +14,7 @@ export default function KnowHow({title}:ChildProps){
              
             <div className=" py-20 rounded-tl-[3rem] w-[80%] sm:w-[50%] min-h-[70vh] flex flex-col items-center justify-center bg-white">
               <H1 className="text-blue-400 text-[2rem]">
-                {title}
+                Gramsa
               </H1>
               <div className="w-[80%] text-center text-black flex flex-col items-center gap-4">
                 <p>

@@ -30,7 +30,8 @@ const Testimonials = () => {
 <div className="grid gap-6 text-center md:grid-cols-3 lg:gap-12 pb-20">
   <div className="mb-12 md:mb-0 w-[22rem]">
     <div className="mb-6 flex justify-center ">
-      <img
+      <Image
+        alt="imagem"
         src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
         className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
     </div>

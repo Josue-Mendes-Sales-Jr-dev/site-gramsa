@@ -120,7 +120,8 @@ const Testimonials = () => {
   </div>
   <div className="mb-12 md:mb-0 w-[22rem]">
     <div className="mb-6 flex justify-center">
-      <img
+      <Image
+        alt="image"
         src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
         className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
     </div>

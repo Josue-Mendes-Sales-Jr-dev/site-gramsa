@@ -175,7 +175,7 @@ export default function Services(){
           </h1>
           <ul className="flex items-center justify-center flex-wrap gap-10 w-[90vw] py-20 lg:py-0 lg:p-10">
           {data.map((date)=>(
-            <li>
+            <li key={date.nome}>
                 <CardDate name={date.nome} subtitle={date.subtitle} Icon={date.icon} />
             </li>
           ))}
