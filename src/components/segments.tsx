@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-interface ICardProps{
+type ICardProps={
     title:string
     subtitle:string
     value:string

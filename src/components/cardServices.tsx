@@ -1,9 +1,10 @@
 import Image from "next/image";
 import H1 from "./h1";
-interface CardServiceProps{
+
+type CardServiceProps={
  className?: string;
  text1?: string
- imag?: any
+ imag?: any|never
 
 }
 

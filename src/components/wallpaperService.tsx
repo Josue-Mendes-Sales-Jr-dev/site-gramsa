@@ -1,7 +1,7 @@
 import Image from "next/image"
-import Title from "./title"
+import Title from "./text"
 
-interface WallpaperServiceProps{
+type WallpaperServiceProps={
  imag: any 
 }
 

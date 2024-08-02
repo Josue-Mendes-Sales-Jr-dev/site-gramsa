@@ -1,8 +1,8 @@
 import Image from "next/image"
-import Title from "./title"
+import Title from "./text"
 
-interface WallpaperProps{
- imag: any 
+type WallpaperProps={
+ imag: any|never
 }
 
 export default function Wallpaper(props:WallpaperProps){

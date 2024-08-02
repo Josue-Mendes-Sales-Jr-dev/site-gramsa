@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 
-interface INavbarProps{
+type INavbarProps={
     className?: string
 }
 

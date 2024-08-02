@@ -2,8 +2,9 @@
 import Image from "next/image"
 import H1 from "./h1"
 import Link from "next/link"
-interface ICardProps{
-    img?:any
+
+type ICardProps ={
+    img?:any|never
 }
 
 export default function CardService01(props:ICardProps){

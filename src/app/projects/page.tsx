@@ -1,7 +1,6 @@
 import CardProject from "@/components/cardProject";
 import H1 from "@/components/h1";
 import Imag from "../../../images/ludmila04.jpeg"
-import CardService01 from "@/components/cardService01";
 
 export default function Projects(){
     return(

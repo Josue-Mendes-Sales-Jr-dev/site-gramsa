@@ -1,22 +1,11 @@
 'use client'
 import Card from "@/components/card";
 import About from "@/components/about";
-import Wallpaper from "@/components/wallpaper";
-import CardDate from "@/components/cardDate";
 import { PiStarThin } from "react-icons/pi";
-import Imag from "../../images/gramsa1.jpeg"
 import Imag02 from "../../images/GRAMSA01.jpg"
 import Imag03 from "../../images/GRAMSA02.jpg"
 import Imag04 from "../../images/GRAMSA05.png"
-import {IoMdArrowDroprightCircle} from "react-icons/io"
-import {IoMdArrowDropleftCircle} from "react-icons/io"
-import { IoIosPersonAdd } from "react-icons/io";
-import { FcBusinesswoman } from "react-icons/fc";
-import { FcBusinessman } from "react-icons/fc";
-import { FcManager } from "react-icons/fc";
-import NavbarClosed from "@/components/navbarClosed";
 import Carousel from "@/components/carousel";
-import WallpaperService from "@/components/wallpaperService";
 import Testimonials from "@/components/testimonials";
 import CardFlip from "@/components/cardFlip";
 
@@ -26,25 +15,7 @@ import CardFlip from "@/components/cardFlip";
 
 
 export default function Home() {
-  const handleLeft=()=>{
-    var slider=document.getElementById("slide");
-    slider!.scrollLeft=slider!.scrollLeft - 500;
-    var arrowShow=document.getElementById("left")
-    if(slider?.scrollLeft===0){
-        arrowShow?.classList.add('hidden')
-    }        
-}
-const handleRight=()=>{
-    var slider=document.getElementById("slide")
-    var arrowShow=document.getElementById("left")
-    if(arrowShow?.classList.contains("hidden")){
-      arrowShow.classList.remove("hidden")
-      arrowShow.classList.add("flex")
-    }
-    slider!.scrollLeft=slider!.scrollLeft+500;
-    console.log('foi')
-            
-}
+
   return (
     <>
     <main className="flex w-[100vw] min-h-screen flex-col gap-2 items-center justify-between pb-10">

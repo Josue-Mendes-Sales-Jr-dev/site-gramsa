@@ -2,12 +2,12 @@ import H1 from "@/components/h1"
 import Image from "next/image"
 import Imag from "../../../images/gramsa rubens.jpeg"
 
-interface ChildProps{
+type ChildProps = {
     title: string
 
 }
 
-export default function Child({title}:ChildProps){
+export default function Child(props:ChildProps){
     return(
         <>
         <H1 className="w-[20vw] mt-20 text-center text-white text-[2rem] border-solid border-b-4">
@@ -19,7 +19,7 @@ export default function Child({title}:ChildProps){
              </div>
             <div className="lg:w-[45%] flex flex-col items-center gap-5">
               <H1 className="text-blue-400 text-[2rem]">
-                {title}
+                {props.title}
               </H1>
               <div className="w-[80%] text-center text-white flex flex-col items-center gap-4">
                 <p>

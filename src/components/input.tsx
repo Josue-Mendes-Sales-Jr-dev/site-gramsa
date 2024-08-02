@@ -1,8 +1,8 @@
-interface InputProps{
+type InputProps={
     type: string
     palceHolder?: string
-    handleClick?: (e:any)=>void
-    value?: any
+    handleClick?: (e:any|never)=>void
+    value?: any|never
     className?: string
 }
 

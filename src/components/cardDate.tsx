@@ -1,11 +1,11 @@
 import { ReactNode } from "react"
 
-interface ICardProps{
-    Icon?: any
+type ICardProps = {
+    Icon?: any|never
     name?: string
     subtitle?: string
     date?: string
-    avaliacao?: ReactNode 
+    avaliacao?: React.ReactNode 
 }
 
 export default function CardDate(props:ICardProps){

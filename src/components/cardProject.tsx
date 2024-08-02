@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import Img from '../app/together/page'
 import Image from "next/image"
-interface ICardProps{
-    Icon?: any
+
+type ICardProps ={
+    Icon?: any|never
     title?: string
     subtitle?: string
-    img?:any
+    img?:any|never
 }
 
 export default function CardProject(props:ICardProps){

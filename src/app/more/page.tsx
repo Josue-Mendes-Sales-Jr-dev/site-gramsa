@@ -2,7 +2,7 @@ import H1 from "@/components/h1"
 import Image from "next/image"
 import Imag from "../../../images/gramsa rubens.jpeg"
 
-interface ChildProps{
+type ChildProps ={
     title: string
 
 }

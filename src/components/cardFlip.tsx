@@ -6,7 +6,7 @@ import { FaCheckDouble } from "react-icons/fa6";
 import { TbHandClick } from "react-icons/tb";
 
 
-interface IcardFlip{
+type IcardFlip ={
     textFront: string
     textBack: string
 }

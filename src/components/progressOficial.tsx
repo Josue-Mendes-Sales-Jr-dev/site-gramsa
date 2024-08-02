@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CircularProgressBar from './CircularProgressBar';
 
-interface iprops{
+type iprops={
   active: number
 }
 function ProgressOficial(props:iprops) {
@@ -18,7 +18,7 @@ function ProgressOficial(props:iprops) {
     }, 300); // Atualiza a cada 100ms
 
     return () => clearInterval(interval); // Limpa o intervalo quando o componente desmonta
-  }, []);
+  }, [props.active]);
 
   return (
     <div className="flex flex-col items-center justify-center ">

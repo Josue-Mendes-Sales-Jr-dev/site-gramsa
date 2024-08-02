@@ -1,5 +1,5 @@
 
-interface ICardProps{
+type ICardProps={
     title?: string
      number01?: string
     text01: string

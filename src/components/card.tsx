@@ -1,11 +1,11 @@
 
 import Image from "next/image"
-import Link from "next/link"
-interface ICardProps{
-    Icon?: any
+
+type ICardProps = {
+    Icon?: any|never
     title?: string
     subtitle?: string
-    img?:any
+    img?:any|never
     children?:React.ReactNode
 }
 
@@ -17,7 +17,8 @@ export default function Card(props:ICardProps){
     <Image
       src={props.img}
       alt="Shoes"
-      className="rounded-xl w-[90%] shadow-2xl" />
+      className="rounded-xl w-[90%] shadow-2xl" 
+      width={500} height={500}/>
   </figure>
   <div className="absolute  flex w-[100%] gap-2 flex-col items-center justify-around top-[160px] card-body text-center pt-5 ">
 

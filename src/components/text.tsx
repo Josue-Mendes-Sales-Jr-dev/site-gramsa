@@ -1,5 +1,5 @@
 
-interface ITitleProps{
+type ITitleProps={
     className?:string
     Text1:string
     text2:string
@@ -8,7 +8,7 @@ interface ITitleProps{
 
   }
 
-export default function Title(props:ITitleProps){
+export default function Text(props:ITitleProps){
     return(
       <>
       <div className={`absolute  text-gray-300 text-[1.25rem] md:text-[2.5rem] ${props.className}`}>

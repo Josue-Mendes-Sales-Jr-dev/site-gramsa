@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineX } from "react-icons/ai";
 
 
-interface INavbarProps{
+type INavbarProps={
   className?: string
 }
 

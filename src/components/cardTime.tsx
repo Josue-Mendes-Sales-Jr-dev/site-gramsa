@@ -1,11 +1,12 @@
 
 import Image from "next/image"
 import H1 from "./h1"
-interface ICardProps{
+
+type ICardProps={
     Icon?: any
     title?: string
     subtitle?: string
-    img?:any
+    img?:any|never
 }
 
 export default function CardTime(props:ICardProps){
@@ -17,6 +18,7 @@ export default function CardTime(props:ICardProps){
       src={props.img}
       alt="Shoes"
       className="rounded-xl w-[90%] shadow-2xl" />
+      width={500} height={500}
   </figure>
   <div className="absolute flex w-[100%] gap-2 flex-col items-center justify-around top-[160px] card-body text-center pt-5 ">
       <H1>

@@ -5,7 +5,7 @@ import Img01 from "../../images/mina4.avif"
 import Img02 from "../../images/mina3.jpg"
 
 import { useEffect } from "react";
-import Title from "./title";
+import Title from "./text";
 
 const Carousel = () => {
   useEffect(() => {

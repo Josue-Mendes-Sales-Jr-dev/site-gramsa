@@ -1,5 +1,5 @@
 
-interface LayoutProps{
+type LayoutProps={
     children: React.ReactNode
 }
 

@@ -7,7 +7,7 @@ import { MdOutlineFacebook } from "react-icons/md";
 
 
 
-interface INavbarProps{
+type INavbarProps={
     className?: string
 }
 

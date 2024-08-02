@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-interface CircularProgressBarProps {
+type CircularProgressBarProps = {
   progress: number;
   className01?: string;
   textColor?: string; // Adicione uma propriedade para a cor do texto

@@ -5,7 +5,6 @@ import Img01 from "../../images/mina4.avif"
 import Img02 from "../../images/mina3.jpg"
 
 import { useEffect } from "react";
-import H1 from "./h1";
 
 const Testimonials = () => {
   useEffect(() => {
@@ -33,6 +32,7 @@ const Testimonials = () => {
       <Image
         alt="imagem"
         src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg"
+        width={500} height={500}
         className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
     </div>
     <h5 className="mb-4 text-xl font-semibold">Maria Smantha</h5>

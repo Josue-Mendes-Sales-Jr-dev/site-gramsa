@@ -2,8 +2,8 @@ import Image from "next/image"
 import H1 from "./h1"
 import Link from "next/link"
 
-interface CardProjectsProps{
-Imag: any
+type CardProjectsProps = {
+Imag: any|never
 textDate: string
 text: string
 title: string

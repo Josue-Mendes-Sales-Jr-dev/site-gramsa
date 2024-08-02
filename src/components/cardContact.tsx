@@ -1,6 +1,6 @@
 
-interface ICardProps{
-    Icon?: any
+type ICardProps ={
+    Icon?: any|never
     title?: string
     subtitle?: string
 }

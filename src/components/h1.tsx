@@ -1,4 +1,4 @@
-interface H1Props{
+type H1Props={
     className?:string
     children:React.ReactNode
 }

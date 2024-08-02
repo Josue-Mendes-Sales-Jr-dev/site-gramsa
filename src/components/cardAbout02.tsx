@@ -1,9 +1,10 @@
 import Image from "next/image"
-interface CardAboutPropos{
+
+type CardAboutPropos ={
  text1:string
  text2?:string
  text3?:string
- imag:any
+ imag:any|never
  title:string
 
 }
