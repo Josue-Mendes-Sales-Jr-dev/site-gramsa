@@ -1,25 +1,29 @@
+type ITitleProps = {
+  className?: string;
+  Text1: string;
+  text2: string;
+  text3: string;
+  classNameP?: string;
+};
 
-type ITitleProps={
-    className?:string
-    Text1:string
-    text2:string
-    text3:string
-    classNameP?: string
-
-  }
-
-export default function Text(props:ITitleProps){
-    return(
-      <>
-      <div className={`absolute  text-gray-300 text-[1.25rem] md:text-[2.5rem] ${props.className}`}>
-      <p> <span className={`text-blue-700`}>
-        <strong>{props.Text1}</strong>
-        </span> {props.text2}</p>
-            <p className={`${props.classNameP}`}> 
-              <strong>
-              {props.text3}
-              </strong></p>
+export default function Text({
+  className = "",
+  Text1,
+  text2,
+  text3,
+  classNameP = "",
+}: ITitleProps) {
+  return (
+      <div className={`absolute text-gray-300 text-xl md:text-4xl ${className}`}>
+          <p>
+              <span className="text-blue-700">
+                  <strong>{Text1}</strong>
+              </span>{" "}
+              {text2}
+          </p>
+          <p className={classNameP}>
+              <strong>{text3}</strong>
+          </p>
       </div>
-      </>
-    )
+  );
 }

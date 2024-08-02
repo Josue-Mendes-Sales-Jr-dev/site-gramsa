@@ -1,7 +1,11 @@
-import ServerLayout from "@/app/ServerLayout"; // Importe o layout do servidor
-import RootLayout from "@/app/RootLayout"; // Importe o layout do cliente
+import ServerLayout from "@/app/ServerLayout";
+import RootLayout from "@/app/RootLayout";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export default function Layout({ children }: LayoutProps) {
   return (
     <ServerLayout>
       <RootLayout>

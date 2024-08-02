@@ -1,6 +1,5 @@
-@tailwind base;
-
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@tailwind base;
 
 @layer base {
   html {
@@ -15,15 +14,6 @@
 
 @tailwind components;
 @tailwind utilities;
-
-.perspective-1000 {
-  perspective: 1000px;
-}
-
-.backface-hidden {
-  -webkit-backfaceVisibility: hidden;
-  backface-visibility: hidden;
-}
 
 p {
   @apply leading-[1.6];
