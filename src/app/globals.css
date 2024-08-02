@@ -1,0 +1,58 @@
+@tailwind base;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  -webkit-backfaceVisibility: hidden;
+  backface-visibility: hidden;
+}
+
+p {
+  @apply leading-[1.6];
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  
+  }
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:rgb(255, 255, 255);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.text-custom-color {
+  fill: #ff5733; /* Defina a cor desejada aqui */
+}
