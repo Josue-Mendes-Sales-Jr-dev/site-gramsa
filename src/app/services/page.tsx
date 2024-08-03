@@ -25,6 +25,9 @@ import Imag05 from '../../../images/jun02.jpeg';
 import Imag06 from '../../../images/gramsa rubens.jpeg';
 import Imag07 from '../../../images/mina4.avif';
 import Imag08 from '../../../images/m1.jpg';
+import ProgressBar from "@/components/progressBar";
+import CircularProgressBar from "@/components/CircularProgressBar";
+import ProgressNumber from "@/components/progressBar";
 
 // Dados
 const teamData = [
@@ -50,8 +53,8 @@ export default function Services() {
           </p>
         </div>
         
-        <div className="flex gap-5 flex-wrap items-center justify-center w-full min-h-[22.5rem]">
-          <CardServices className="bg-gray-950" imag={Imag} text1="Construção" />
+        <div className="flex gap-2 flex-wrap items-center justify-center w-[100vw] min-h-[22.5rem]">
+          <CardServices className="bg-gray-950 md:ml-[-1rem]" imag={Imag} text1="Construção" />
           <CardServices className="bg-blue-950" imag={Imag} text1="Reformar" />
           <CardServices className="bg-gray-950" imag={Imag} text1="Regularização" />
           <CardServices className="bg-blue-950" imag={Imag} text1="Consultoria" />
@@ -61,20 +64,26 @@ export default function Services() {
           <div className="absolute top-0 w-full h-full z-10">
             <Image src={Imag01} className="rounded-sm object-fill w-full h-full opacity-70" width={400} height={400} alt="Background" />
           </div>
-          
-          <div className="flex flex-col items-center justify-center z-20">
-            <ProgressOficial active={40} />
-            <H1 className="text-gray-300 text-xl">Progresso</H1>
+          <div className="absolute z-[10] w-[90vw] flex flex-wrap gap-10 items-center justify-around">
+          <div className=" flex flex-col items-center justify-center gap-3 md:gap-7">
+           <ProgressNumber maxProgress={430}/>
+           <H1 className="text-[1rem] md:text-[2rem] text-white">
+            + Processos
+           </H1>
+           </div>
+           <div className="flex flex-col items-center justify-center gap-3 md:gap-7">
+           <ProgressNumber maxProgress={750}/>
+           <H1 className="text-[1rem] md:text-[2rem] text-white">
+            + Projeto 
+           </H1>
+           </div>
+           <div className="flex flex-col items-center justify-center gap-3 md:gap-7">
+           <ProgressNumber maxProgress={900}/>
+           <H1 className="text-[1rem] md:text-[2rem] text-white">
+            + Cafezinhos 
+           </H1>
           </div>
-          
-          <div className="absolute flex flex-col items-center justify-center z-20">
-            <ProgressOficial active={60} />
-            <H1 className="text-gray-300 text-xl">Progresso</H1>
-          </div>
-          
-          <div className="flex flex-col items-center justify-center z-20">
-            <ProgressOficial active={40} />
-            <H1 className="text-gray-300 text-xl">Progresso</H1>
+         
           </div>
         </section>
       </section>

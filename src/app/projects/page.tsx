@@ -19,7 +19,7 @@ export default function Projects() {
     <section className="flex flex-col gap-20 items-center w-full min-h-screen py-10">
       <H1 className="text-3xl text-blue-400">Projetos</H1>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-[90%]">
+      <div className="flex items-center justify-center flex-wrap gap-10 w-[90%]">
         {projects.map((project, index) => (
           <CardProject
             key={index}

@@ -11,11 +11,12 @@
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "leaflet": "^1.9.4",
-    "next": "14.2.3",
+    "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-leaflet": "^4.2.1",
+    "sharp": "^0.33.4",
     "tw-elements": "^2.0.0"
   },
   "devDependencies": {

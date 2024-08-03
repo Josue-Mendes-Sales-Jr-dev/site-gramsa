@@ -17,10 +17,8 @@ export default function About() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic debitis, itaque beatae nostrum magni est natus molestiae voluptas quasi! Quae eius quidem deleniti rem libero explicabo officiis quos sint rerum.
                     </p>
                 </div>
-                <Link href="/contact">
-                    <a className="px-8 py-3 bg-blue-800 text-white rounded-xl hover:bg-blue-950">
+                <Link href="/contact" className="px-8 py-3 bg-blue-800 text-white rounded-xl hover:bg-blue-950">
                         Talk with Us
-                    </a>
                 </Link>
             </div>
             <Image

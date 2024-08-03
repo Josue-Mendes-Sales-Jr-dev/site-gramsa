@@ -1,11 +1,11 @@
 import { ReactNode } from "react"
+import Image from "next/image"
 
 type ICardProps = {
     Icon?: any|never
     name?: string
     subtitle?: string
     date?: string
-    avaliacao?: React.ReactNode 
 }
 
 export default function CardDate(props:ICardProps){
@@ -14,9 +14,12 @@ export default function CardDate(props:ICardProps){
         
          <div className="mb-0 w-[16rem] flex flex-col items-center justify-center">
     <div className="mb-6 flex justify-center items-center ">
-      <img
+      <Image
+      alt="asa"
         src={props.Icon}
-        className="w-32 rounded-full shadow-lg dark:shadow-black/30" />
+        className="w-32 rounded-full shadow-lg dark:shadow-black/30" 
+        width={500}
+        height={500}/>
     </div>
     <h5 className="mb-4 text-xl font-semibold">                 
         {props.name}

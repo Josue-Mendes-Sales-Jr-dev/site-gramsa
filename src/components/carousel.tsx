@@ -65,7 +65,9 @@ const Carousel = () => {
       <Image
         src={Img}
         className="block w-full h-[100vh] object-cover"
-        alt="..." />
+        alt="..."
+        width={1500}
+        height={1500} />
       <div
         className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
         
@@ -80,7 +82,9 @@ const Carousel = () => {
        <Image
         src={Img01}
         className="block w-full h-[100vh] object-cover"
-        alt="..." />
+        alt="..."
+        width={1500}
+        height={1500} />
       <div
         className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
         
@@ -95,7 +99,9 @@ const Carousel = () => {
       <Image
         src={Img02}
         className="block w-full h-[100vh] object-cover"
-        alt="..." />
+        alt="..." 
+        width={1500}
+        height={1500}/>
       <div
         className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
       

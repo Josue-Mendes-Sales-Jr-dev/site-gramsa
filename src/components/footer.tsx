@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer(){
     return(
         <>
@@ -16,7 +18,8 @@ export default function Footer(){
           <button className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
             <i className="fab fa-twitter"></i></button><button className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
             <i className="fab fa-facebook-square"></i></button><button className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i className="fab fa-dribbble"></i></button><button className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i className="fab fa-dribbble"></i></button>
+            <button className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
             <i className="fab fa-github"></i>
           </button>
         </div>
@@ -27,16 +30,16 @@ export default function Footer(){
             <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
             <ul className="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">About Us</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Blog</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Github</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Free Products</Link>
               </li>
             </ul>
           </div>
@@ -44,16 +47,16 @@ export default function Footer(){
             <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
             <ul className="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">MIT License</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Terms &amp; Conditions</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Privacy Policy</Link>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                <Link className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="/">Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -65,8 +68,8 @@ export default function Footer(){
       <div className="w-full md:w-4/12 px-4 mx-auto text-center">
         <div className="text-sm text-blueGray-500 font-semibold py-1">
           Copyright © <span id="get-current-year">2024</span>
-          <a href="https://www.creative-tim.com/product/notus-js" className="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by</a>
-          <a href="https://www.creative-tim.com?ref=njs-profile" className="text-blueGray-500 hover:text-blueGray-800">Creative Tim</a>.
+          <Link href="/" className="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by</Link>
+          <Link href="/" className="text-blueGray-500 hover:text-blueGray-800">Creative Tim</Link>.
         </div>
       </div>
     </div>
