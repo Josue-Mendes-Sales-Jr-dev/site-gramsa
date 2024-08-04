@@ -7,9 +7,9 @@ import { SiWhatsapp } from "react-icons/si";
 
 export default function Contact() {
     return (
-        <div className="flex flex-col gap-20 min-h-screen py-10 px-4">
+        <div className="flex flex-col items-center justify-between lg:flex-row gap-20 lg:gap-[10rem] min-h-screen">
             {/* Contact Information Section */}
-            <div className="flex flex-col items-center gap-10 w-full md:w-1/3 mx-auto">
+            <div className="flex flex-col items-center gap-10 w-[90%] lg:w-[30%] mx-auto">
                 <H1 className="text-gray-300 text-center">ONDE NOS ENCONTRAR:</H1>
                 <div className="flex flex-col gap-6 w-full">
                     <CardContact title="+55 47 98849-6355" Icon={<FaPhone />} />
@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
 
             {/* Contact Form Section */}
-            <div className="flex flex-col gap-10 w-full md:w-2/3 mx-auto">
+            <div className="flex flex-col gap-10 items-center w-[90%] lg:w-[60%] mx-auto">
                 <H1 className="text-gray-300 text-center">AGENDE SEU DIAGNÓSTICO GRATUITO!</H1>
                 <form action="" className="flex flex-col gap-6 w-full">
                     <div className="flex flex-col md:flex-row gap-6 w-full">

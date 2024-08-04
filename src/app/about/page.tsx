@@ -60,7 +60,7 @@ export default function About() {
                 <p className="text-center mb-4 w-[90%]">
                     Sabemos que ao escolher uma empresa para o desenvolvimento de seu projeto, você encontrará várias alternativas que parecerão semelhantes às nossas. Por isso, expomos aqui as razões para escolher a GRAMSA, para que você possa entender que elas podem ser semelhantes, mas não iguais.
                 </p>
-                <ul className="list-disc list-inside mb-4">
+                <ul className="list-disc list-inside mb-4 w-[80%] sm:w-[90%]">
                     <li>Mais de 20 anos de experiência com crescimento exponencial e sustentável.</li>
                     <li>Desenvolvimento de projetos em sua totalidade por nossa equipe, sem depender de terceiros.</li>
                     <li>Capacidade de avaliar seu projeto e ajustá-lo perfeitamente às suas necessidades.</li>

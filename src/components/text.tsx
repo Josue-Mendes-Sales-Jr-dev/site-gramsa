@@ -14,14 +14,14 @@ export default function Text({
   classNameP = "",
 }: ITitleProps) {
   return (
-      <div className={`absolute text-gray-300 text-xl md:text-4xl ${className}`}>
-          <p>
-              <span className="text-blue-700">
-                  <strong>{Text1}</strong>
+      <div className={`absolute text-gray-300 text-xl sm:text-[3rem] ${className}`}>
+          <p className="text-[1.5rem] sm:text-[1.5rem]">
+              <span className="text-blue-700 text-[1.9rem] sm:text-[2.5rem]">
+                  <strong >{Text1}</strong>
               </span>{" "}
               {text2}
           </p>
-          <p className={classNameP}>
+          <p className={`${classNameP} text-[1.2rem] sm:text-[1.5rem]`}>
               <strong>{text3}</strong>
           </p>
       </div>

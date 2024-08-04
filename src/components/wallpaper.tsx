@@ -20,7 +20,7 @@ export default function Wallpaper({ imag }: WallpaperProps) {
                 Text1="Engineering Solution"
                 text2="For Industrial Assets"
                 text3="Lifecycle Management"
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 text-center z-30"
+                className="absolute text-[4rem] transform  w-4/5 text-center z-30 left-6 sm:left-[10rem] top-[14rem] sm:top-[18rem]"
             />
         </section>
     );
