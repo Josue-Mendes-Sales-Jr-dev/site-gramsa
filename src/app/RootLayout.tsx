@@ -42,9 +42,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} w-[100vw] overflow-x-hidden relative`}>
-        <NavbarClosed className="z-30"/>
         <Tarja/>
-        <Navbar className={"absolute top-[6rem] z-30"}/>
+        <NavbarClosed className="z-30"/>
         {children}
         <Link href="https://w.app/UMYpCH" type="blank" className={isCheck ? "fixed bottom-5 right-5" : "hidden"}>
           <Image src={Whatsapp} width={400} height={500} alt="whatsapp" className="rounded-full w-[4rem] z-50"/>

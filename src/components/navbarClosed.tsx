@@ -52,7 +52,7 @@ export default function NavbarClosed(props: INavbarProps) {
   return (
     <>
     <div
-      className={isCheck ? `${props.className} fixed top-0 hidden` : ` z-50 fixed top-0 bg-teal-950 ${props.className}  w-[100vw] h-[5.2rem]  flex items-center text-white justify-between lg:justify-around`}
+      className={isCheck ? `${props.className}  w-[100vw] h-[5rem] absolute  top-0 lg:mt-20  items-center text-white justify-between lg:justify-around flex` : ` z-50 fixed top-0 bg-teal-950 ${props.className}  w-[100vw] h-[5.2rem]  flex items-center text-white justify-between lg:justify-around`}
       id="show"
     >
       <div className={"absolute top-0 w-[100%] h-[5rem] flex opacity-60 z-[-10] items-center text-white justify-around"}>

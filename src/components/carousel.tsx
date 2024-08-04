@@ -54,7 +54,7 @@ const Carousel = () => {
         Text1="Engineering solution"
         text2="for industrialasset" 
         text3="lifecycle management."
-        className={`absolute w-[80%] h-[30%] z-[30] left-6 sm:left-[10rem] top-[14rem] sm:top-[18rem]`}/>
+        className={`absolute w-[80%] h-[30%] z-[20] left-10 sm:left-[10rem] top-[12rem] sm:top-[18rem]`}/>
     <div
       className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-twe-carousel-active
