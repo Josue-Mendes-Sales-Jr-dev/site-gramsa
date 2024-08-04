@@ -26,7 +26,7 @@ export default function WallpaperService({ imag }: WallpaperServiceProps) {
                 Text1="Gramsa"
                 text2="Nós transformamos seus sonhos em realidade"
                 text3="Consultoria, modelagens, estudo de viabilidade."
-                classNameP="text-blue-900"
+                classNameP="text-white"
             />
         </section>
     );

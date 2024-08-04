@@ -67,7 +67,7 @@ export default function NavbarClosed(props: INavbarProps) {
         <Link className="py-7 p-3 hover:text-blue-400 hover:border-t-2 border-gray-900" href="/about"onClick={handleRemove} >About</Link>
         <Link className="py-7 p-3 hover:text-blue-400 hover:border-t-2 border-gray-900" href="/services"onClick={handleRemove} >Services</Link>
         <Link className="py-7 p-3 hover:text-blue-400 hover:border-t-2 border-gray-900" href="/projects" onClick={handleRemove} >Projetos</Link>
-        <Link className="py-4 px-4 bg-white text-teal-950 hover:bg-teal-800 text-[1.2rem] rounded-xl hover:text-white hover:border-t-2 border-gray-900" href="/contact" onClick={handleRemove} >Fale conosco</Link>
+        <Link className={isCheck?"py-7 p-3 hover:text-blue-400 hover:border-t-2 border-gray-900":"py-4 px-4 bg-white text-teal-950 hover:bg-teal-800 text-[1.2rem] rounded-xl hover:text-white hover:border-t-2 border-gray-900"} href="/contact" onClick={handleRemove} >Fale conosco</Link>
       </nav>
       <button className="lg:hidden w-[2%]" id="hamburger">
         {

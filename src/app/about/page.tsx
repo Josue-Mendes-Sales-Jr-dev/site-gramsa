@@ -23,10 +23,10 @@ export default function About() {
                         Como política da empresa, estabelecemos que a qualidade dos nossos serviços sempre irá exceder as exigências dos nossos clientes, ajudando assim a definir os objetivos e metas de cada um dos seus projetos.
                     </p>
                 </div>
-                <div className="w-full lg:w-3/4">
-                <div  className="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden" style={{paddingTop: "42.857143%"}}>
+                <div className="flex justify-center items-center w-full lg:w-3/4">
+                <div  className="flex justify-center items-center embed-responsive embed-responsive-21by9 relative w-full overflow-hidden" style={{paddingTop: "42.857143%"}}>
                    <iframe
-                     className="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-[80%]"
+                     className="embed-responsive-item absolute top-0 h-full w-[80%]"
                      src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&amp;origin=https%3A%2F%2Fmdbootstrap.com"
                      allowFullScreen
                      data-gtm-yt-inspected-2340190_699="true"
